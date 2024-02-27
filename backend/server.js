@@ -6,12 +6,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 
 const app = express();
-// app.use(cors());
-const corsOptions = {
-  origin: 'https://muratgozen-e-commerce.netlify.app'
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(morgan());
 app.use(express.json());
