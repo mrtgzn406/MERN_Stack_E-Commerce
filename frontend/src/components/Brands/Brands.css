@@ -1,0 +1,14 @@
+/*! brands start  */
+.brands {
+    margin: 40px 0;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #dee0ea;
+    padding: 30px 5px;
+}
+
+/*! brands end  */
