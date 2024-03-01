@@ -148,7 +148,7 @@ const UpdateProductPage = () => {
                         },
                     ]}
                 >
-                    <InputNumber />
+                    <InputNumber min={1} max={100} />
                 </Form.Item>
 
                 <Form.Item

@@ -110,24 +110,17 @@ const Reviews_Form = ({ singleProduct, setSingleProduct }) => {
                 ></textarea>
             </div>
             <div className="comment-form-author form-comment">
-                <label htmlFor="name">
-                    Name
-                    <span className="required">*</span>
-                </label>
+                <label htmlFor="name">Name</label>
                 <input id="name" type="text" />
             </div>
             <div className="comment-form-email form-comment">
-                <label htmlFor="email">
-                    Email
-                    <span className="required">*</span>
-                </label>
+                <label htmlFor="email">Email</label>
                 <input id="email" type="email" />
             </div>
             <div className="comment-form-cookies">
                 <input id="cookies" type="checkbox" />
                 <label htmlFor="cookies">
                     Save my name, email, and website in this browser for the next time I comment.
-                    <span className="required">*</span>
                 </label>
             </div>
             <div className="form-submit">

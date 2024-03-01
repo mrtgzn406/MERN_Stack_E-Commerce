@@ -1,3 +1,16 @@
+# Kullanım
+
+Bu e-ticaret sitesine "https://murat-gozen-e-commerce.netlify.app/" adresinden erişebilirsiniz, sitenin tam olarak yüklenmesi için siteyi açtığınızda yaklaşık 10 saniye kadar beklemeniz gerekmektedir.
+
+Sitenin github repository'si ise budur : "https://github.com/mrtgzn406/MERN_Stack_E-Commerce"
+
+Sitede bazı işlemlerin yapılması için kullanıcı girişi gerekiyor, Sağ üst taraftan "Hesap" simgesine basıp
+Login ve Register sayfalarına gidebilirsiniz. Kullanıcı kaydınızı "Register" kısmından oluşturun, sonra aynı sayfadaki "Login" kısmından giriş yapın. Artık bu işlemden sonra siteyi daha işlevsel kullanabilirsiniz.
+
+Admin paneline erişmek içinse yine Login kısmından e-mail kısmına "mrtgzn406@gmail.com" , şifre kısmına ise
+"123" yazın, bu rolü "admin" olan bir kullanıcı girişidir ve sizi direkt olarak sitedeki admin paneline yönlendirecektir. Eğer bu admin hesabıyla giriş yaparsanız admin paneline ayrıca "https://murat-gozen-e-commerce.netlify.app/admin" bağlantısı elinizle yazarak da erişebilirsiniz. Ama admin olmayan
+kullanıcılar bu sayfayı görüntüleyemezler.
+
 # Açıklama
 
 Bu e-ticaret sitesi ise şimdiye kadar yaptığım en karmaşık, gelişmiş projemdir.
@@ -21,7 +34,7 @@ Sitede herhangi bir veri (kategori, kupon, kullanıcı, ürün, ürün yorumu vb
 silindiğinde bu değişiklikler anında veritabanına kaydedilir. Sonrasında veritabanından en güncel veriler çekilir
 ve ilgili componentler içerisinde render edilir.
 
-## Bu Projenin Bana Katkıları
+# Bu Projenin Bana Katkıları
 
 Bu projeyi yaparak ben MERN Stack (MongoDB + Express + React + Node) konseptiyle bir projenin hem backend
 hem de frontend kısmını uçtan uca yapmayı öğrendim, bu konuda öğrendiğim bilgileri iyice pekiştirdim.
