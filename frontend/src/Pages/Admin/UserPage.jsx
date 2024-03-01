@@ -36,19 +36,20 @@ const UserPage = () => {
             title: "Actions",
             dataIndex: "actions",
             key: "actions",
-            render: (text, record) => (
-                <Popconfirm
-                    title="Delete User"
-                    description="Are you sure to delete this user?"
-                    okText="Yes"
-                    cancelText="No"
-                    onConfirm={() => deleteUser(record.email)}
-                >
-                    <Button type="primary" danger>
-                        Delete
-                    </Button>
-                </Popconfirm>
-            ),
+            render: (text, record) =>
+                record.role == "user" && (
+                    <Popconfirm
+                        title="Delete User"
+                        description="Are you sure to delete this user?"
+                        okText="Yes"
+                        cancelText="No"
+                        onConfirm={() => deleteUser(record.email)}
+                    >
+                        <Button type="primary" danger>
+                            Delete
+                        </Button>
+                    </Popconfirm>
+                ),
         },
     ];
 
@@ -76,6 +77,9 @@ const UserPage = () => {
     }, [fetchUsers]);
 
     const deleteUser = async (userEmail) => {
+        if (userEmail == "mrtgzn406@gmail.com") {
+            return message.error("You cannot delete admin!");
+        }
         try {
             const response = await fetch(`${apiUrl}/api/users/${userEmail}`, { method: "DELETE" });
             if (response.ok) {
