@@ -1,4 +1,4 @@
-# Kullanım
+# Site Olarak Kullanım
 
 Bu e-ticaret sitesine "https://murat-gozen-e-commerce.netlify.app/" adresinden erişebilirsiniz, sitenin tam olarak yüklenmesi için siteyi açtığınızda yaklaşık 10 saniye kadar beklemeniz gerekmektedir.
 
@@ -10,6 +10,22 @@ Login ve Register sayfalarına gidebilirsiniz. Kullanıcı kaydınızı "Registe
 Admin paneline erişmek içinse yine Login kısmından e-mail kısmına "mrtgzn406@gmail.com" , şifre kısmına ise
 "123" yazın, bu rolü "admin" olan bir kullanıcı girişidir ve sizi direkt olarak sitedeki admin paneline yönlendirecektir. Eğer bu admin hesabıyla giriş yaparsanız admin paneline ayrıca "https://murat-gozen-e-commerce.netlify.app/admin" bağlantısı elinizle yazarak da erişebilirsiniz. Ama admin olmayan
 kullanıcılar bu sayfayı görüntüleyemezler.
+
+# Projeyi Kendi Bilgisayarınıza Kurma
+
+Bu projeyi kurmak için ilk önce projeyi indirmeniz gerekir. Projeyi ister "Download ZIP" butonundan zip olarak indirip zipten çıkarın, isterseniz de projeyi klonlayarak indirin. Projeyi indirdikten sonra yapılması gerekenler şunlardır :
+
+1. ) NodeJs'i indirin : https://nodejs.org/en (LTS olanı indirebilirsiniz)
+
+2. ) Projeyi vs code veya benzeri bir kod editöründe ve IDE'de açın
+
+3. ) Projedeki backend kısmının gerekli dosyalarını indirmek için, backend klasörünü terminalde açın, bunu
+   yapmak için klasöre "sağ click > open in integrated terminal" diyebilirsiniz. Ardından açılan terminale
+   "npm install" yazıp enter'a basın, gerekli dosyalar inecektir, indirmenin bitmesini bekleyin. Sonra da aynı terminale "npm start" yazıp enter'a basın. Projenin backend kısmı çalışacaktır.
+
+4. ) Projedeki frontend kısmının gerekli dosyalarını indirmek için, frontend klasörünü terminalde açın, bunu
+   yapmak için klasöre "sağ click > open in integrated terminal" diyebilirsiniz. Ardından açılan terminale
+   "npm install" yazıp enter'a basın, gerekli dosyalar inecektir, indirmenin bitmesini bekleyin. Sonra da aynı terminale "npm run dev" yazıp enter'a basın. Projenin frontend kısmı da çalışacaktır. Artık tarayıcınızda proje açılacaktır ve terminalde de projenin çalıştığı yerel sunucu bağlantısı gözükecektir, proje tamamen çalışır haldedir.
 
 # Açıklama
 
