@@ -35,9 +35,7 @@ Bu e-ticaret sitesini şimdiye kadar web tasarımıyla ilgili öğrendiğim tüm
 Siteyi MERN Stack konseptinde yaptım. Bu yüzden bu e-ticaret sitesinin frontend tarafı için Html, Css, Javascript,
 React ve Ant Design kullandım, backend tarafında CRUD işlemleri için API'lar oluşturdum ve teknoloji olarak
 MongoDB, Express.js ve Node.js kullandım. Sonrasında sitenin backend kısmını ayrı, frontend kısmını ayrı olarak
-host ettim (internete yükledim) ve bu iki kısmın bağlantısını sağladım. Bu bağlantıyı sağlarken kullandığım
-ortam değişkenlerini ise frontend ve backend kısımlarını host ettiğim sitelerin ayarlar sayfasında manuel
-olarak ekledim. Bu ortam değişkenleri hassas bilgiler içerdiğinden onları bu repository'ye dahil etmedim.
+host ettim (internete yükledim) ve bu iki kısmın bağlantısını sağladım.
 
 Sitede ürün arama, sepet işlemleri, kullanıcı kaydı, kullanıcı girişi, ödeme ekranı, admin paneli gibi alanlar
 vardır. Sitede ayrıca MongoDB veritabanı bağlantısı vardır ve site üzerinden CRUD (create, read, update, delete)
